@@ -65,7 +65,7 @@ body {
 
 a {
 	text-decoration: none;
-	color: var(--color-link);
+	color: rgb(255, 235, 30);
 	outline: none;
 }
 
