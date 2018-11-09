@@ -303,6 +303,10 @@ iframe:hover {
 	transform: scale3d(1.05,1.05,1);
 }
 
+video:hover {
+	transform: scale3d(1.05,1.05,1);
+}
+
 /*.grid__item-wrap:hover .grid__item-img {
 	transform: scale3d(1.1,1.1,1);
 }*/
