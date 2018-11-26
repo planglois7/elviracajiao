@@ -1,163 +1,146 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Elvira Cajiao</title>
-		<meta name="description" content="A fullscreen loop effect that shows a preview of images when hovering a menu item." />
-		<meta name="keywords" content="fullscreen, loop, preview, images, web development, template, javascript" />
-		<meta name="author" content="Codrops" />
-		<link rel="shortcut icon" href="246x0w.jpg">
-		<!-- <link rel="stylesheet" type="text/css" href="pater/pater.css" /> -->
-		<link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Faster+One" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Chivo" rel="stylesheet">		
-		<link href="https://fonts.googleapis.com/css?family=Prata" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="base.css" />
-		<!-- <script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script> -->
+<html lang="en">
+
+    <head>
+	
+    <meta charset="utf-8" />	 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />	   
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="246x0w.jpg" rel="shortcut icon" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet">
+	
+	<script src="js/modernizr.js"></script>
+
+	<title>Elvira Cajiao</title>
+
 	</head>
-	<body >
-		<svg class="hidden">
-			<symbol id="icon-arrow" viewBox="0 0 24 24">
-				<title>arrow</title>
-				<polygon points="6.3,12.8 20.9,12.8 20.9,11.2 6.3,11.2 10.2,7.2 9,6 3.1,12 9,18 10.2,16.8 "/>
-			</symbol>
-			<symbol id="icon-drop" viewBox="0 0 24 24">
-				<title>drop</title>
-				<path d="M12,21c-3.6,0-6.6-3-6.6-6.6C5.4,11,10.8,4,11.4,3.2C11.6,3.1,11.8,3,12,3s0.4,0.1,0.6,0.3c0.6,0.8,6.1,7.8,6.1,11.2C18.6,18.1,15.6,21,12,21zM12,4.8c-1.8,2.4-5.2,7.4-5.2,9.6c0,2.9,2.3,5.2,5.2,5.2s5.2-2.3,5.2-5.2C17.2,12.2,13.8,7.3,12,4.8z"/><path d="M12,18.2c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7c1.3,0,2.4-1.1,2.4-2.4c0-0.4,0.3-0.7,0.7-0.7c0.4,0,0.7,0.3,0.7,0.7C15.8,16.5,14.1,18.2,12,18.2z"/>
-			</symbol>
-		</svg>
-		<main>
-			<h2 class="title"><a href="#content-main">Elvira Cajiao</a></h2>
-			<nav class="menu">
-				<a href="work.html" class="menu__item">Work</a>
-				<a href="#content-contact" class="menu__item" id="myBtn">Contact</a>
-				<a href="ElviraCajiao_CV.pdf" download="ElviraCajiao_CV.pdf" class="menu__item">CV</a>
+	   <body>
+	   
+<!--- PAGE LOADING --->	
+<div class="preloading fadeIn">	 
 
-			</nav>
-			<div class="content content--main content--current" id="content-main">
-				<div class="content__text">
-					<header class="codrops-header">
-						
-					</header>
-					<p class="content__paragraph">Hola, my name is <a href="#">Elvira</a> and I'm a<br> <a class="glitch" href="#">multimedia producer</a> from Spain. <br>I'm looking for a creative <span style="font-family: FuegoFatuo;">job</span> :)) <br></p>
-					
-					
+		<!--- NAV BAR --->
+		<div class="nav-ttl">
+              Elvira Cajiao
+		</div>
+			
+		<div class="right-menu">
+				<!-- Button trigger modal -->
+					<button type="button" class="btn btn-primary-menu" data-toggle="modal" data-target="#exampleModalLong">
+						Menu
+					</button>
+
+				<!-- Modal -->
+			<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header-menu">
+					<div class="menu-t">
+					    <div class="open-menu-title">
+						Elvira Cajiao
+						</div>
+						<div class="menu-links-on" > 
+						Home
+						</div>
+						<div> 
+						<a class="menu-links" href="works.html"> Works </a>
+						</div> 
+						<!-- <div>  -->
+						<!-- <a class="menu-links" href="logos.html"> Logo Collection </a>
+						</div> -->
+						<div> 
+						<a class="menu-links" href="about.html"> About & Contact </a>
+						</div>
+						<!-- <div>  -->
+						<!-- <a class="menu-links" href="blog.html"> Blog </a>
+						</div> -->
+						<button type="button" class="menu-close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
 				</div>
-				<div class="elv"></div>
-				<aside class="content__sidebar">
-					<!-- <img class="elv" src="1_website_profile.png"> -->
-					
-				</aside>
-
 			</div>
-			<!-- /content--about -->
-			<div id="myModal" class="modal">
-  			<div class="modal-content">
-    			<span class="close">&times;</span>
-    			<p><img class="logo" src="mail.svg" width="50" height="50">email me: elviracajiao@hotmail.com</p><br>
-    			<p><img class="logo" src="user.svg" width="50" height="50">call me: +34 655 36 34 99</p>
-    			<br>
-    			<p><img class="logo" src="instagram (1).svg" width="50" height="50">follow me on instagram: <a href="https://www.instagram.com/surrealistatotal/">@surrealistatotal</a> </p>
-    			<br>
-    			<p><img class="logo" src="linkedin.svg" width="50" height="50">connect: <a href="https://www.linkedin.com/in/elvira-cajiao-2b54b113a/">Elvira Cajiao</a></p>
-    			<br>
-    			<p><img class="logo" src="vimeo.svg" width="50" height="50">follow me on vimeo: <a href="https://vimeo.com/user15289788/about">Elvira Cajiao</a></p>
-    			<br>
-  			</div>
+				</div>
+				</div>
+		</div>		  
+	
+	<!--- THE END NAV BAR --->  
 
-			</div>
+<div class="container">
 
-			<div class="content content--photography" id="content-photography">
-				<aside class="category">
+		<!--- HERO HEADER --->
+	           <!--  <div class="row">
+	                <div class="col-md-12">
+                       <div class="hero-bg" >
+					        <h1 class="fade-anime-top">  </h1>
+                            <h2 class="fade-anime-bottom"> Keep it simple </h2>					
+                       </div>
+	                </div>
+				</div> -->
+		<!--- THE END HERO HEADER --->				
+		
+
+		<!--- HOME PROJECTS --->
+	            <div class="row">
+	                <div class="col-md-3 col-xs-12">
 					
+	                </div>
 					
-				</aside>
-				<!-- <div class="grid">
+	                <div class="col-md-9 col-xs-12">
+                        <div class="prjct-bg" >					
+					          <a > <img src="1_website copy.png" alt="" class="img-prjct"> </a>
+					        <div class="prjct-wrt-right"> Hola, <h2>my name is Elvira and I'm a
+							multimedia producer from Spain. 
+							I'm looking for a creative job</h2>	</div>	
 
-					<a class="grid__item">
-
-						<div class="grid__item-wrap">
-							<div class="grid__item-img" >
-								<span class="grid__item-year">2018</span>
-								<h3 class="grid__item-title"><strong>Social Content</strong> The Brave New Now agency</h3><br>
-								<video controls>
-									<source src="Malacca.mp4" type="video/mp4">
-								</video>
-							</div>
 						</div>
-						
-						
-					</a><br>
+	                </div>
+				</div>
 
-					<a class="grid__item">
-						<div class="grid__item-wrap">
-							<div class="grid__item-img" >
-								<span class="grid__item-year">2018</span>
-								<h3 class="grid__item-title"><strong>Social Content</strong> The Brave New Now agency</h3><br>
-								<video controls>
-									<source src="LondonDry_Spinning_FINAL.mp4" type="video/mp4">
-								</video>
-							</div>
-						</div>
-					</a><br>
+	            
+        <!--- THE END HOME PROJECTS --->
 
-					<a class="grid__item">
-						<div class="grid__item-wrap">
-							<div class="grid__item-img" >
-								<span class="grid__item-year">2018</span>
-								<h3 class="grid__item-title"><strong>Social Content</strong> The Brave New Now agency</h3><br>
-								<video controls>
-									<source src="6bottles_Correct One (1).mp4" type="video/mp4">
-								</video>
-							</div>
-						</div>
-						
-					</a><br>
+        <!--- ALL PROJECT BUTTON --->				
+	            <div class="row">
+	                <div class="col-md-12 col-xs-12">
+                       <div class="allprojects-lgs-bg" >
+				           <a class="btn-allprojects" href="works.html" role="button">ALL WORKS</a>				
+                       </div>
+	                </div>
+				</div>								
+		<!--- THE END ALL PROJECT BUTTON --->				
+		
+        <!--- ABOUT & LOGOS BUTTON --->
+       <!--  <div class="fluid-container">
+	            <div class="row">
+	                <div class="col-md-6 col-xs-6">
+                       <div class="allprojects-bg" >
+				           <a class="btn-ltstlk" href="about.html" role="button">ABOUT</a>				
+                       </div>
+	                </div>
+		
+	                <div class="col-md-6 col-xs-6">
+                       <div class="allprojects-bg" >
+				           <a class="btn-ltstlk" href="logos.html" role="button">LOGOS</a>				
+                       </div>
+	                </div>
+				</div>	
+        </div>				 -->
+		<!--- THE END ABOUT & LOGOS BUTTON --->		
 
-					
+		<!--- FOOTER --->
+		
+		<!--- THE END FOOTER --->			
+</div>       
+		<!--- SCRIPTS --->
+	            <script src="js/jquery-2.1.1.js"></script>
+                <script src="js/main.js"></script>
+				<script src="js/bootstrap.min.js"></script>				
+		<!--- THW END SCRIPTS --->	
 
-					<a class="grid__item">
-						<div class="grid__item-wrap">
-							<div class="grid__item-img" >
-								<span class="grid__item-year">2018</span>
-								<h3 class="grid__item-title"><strong>Documentary: Coming soon</strong> Immunes</h3>
-								<p>Where does the distrust in vaccines comes from for some people?</p>
-								<video controls poster="immunes.png">
-									<source src="Documentary_INMUNES.mp4" type="video/mp4">
-								</video>
-
-							</div>
-						</div>
-					</a><br>
-
-
-
-
-				</div> /grid --> 
-			</div>
-			
-		</main>
-		<script type="text/javascript">// Get the modal
-			var modal = document.getElementById('myModal');
-			var btn = document.getElementById("myBtn");
-			var span = document.getElementsByClassName("close")[0];
-			btn.onclick = function() {
-    			modal.style.display = "block";
-			}
-			span.onclick = function() {
-    			modal.style.display = "none";
-			}
-			window.onclick = function(event) {
-    			if (event.target == modal) {
-        			modal.style.display = "none";
-    			}
-			}</script>
-
-			
-		<script src="js/imagesloaded.pkgd.min.js"></script>
-		<!--https://github.com/gre/bezier-easing-->
-		<script src="js/bezier-easing.min.js"></script>
-		<script src="js/TweenMax.min.js"></script>
-		<script src="js/demo.js"></script>
-	</body>
+<!--- THE PAGE LOADING --->		
+		
+		</body>		
+		
 </html>
