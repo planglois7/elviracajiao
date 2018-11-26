@@ -32,7 +32,7 @@ body {
 	line-height: 2em !important;
 	font-weight: 600;
 	color: #fff;
-/* 	opacity: .2 !important; */
+	opacity: 1 !important;
 }
 
 .right-menu {
