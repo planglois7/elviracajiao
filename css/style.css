@@ -1006,7 +1006,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 	line-height: 2em;
 	font-weight: 600;
 	color: #fff;
-	opacity: .2;
+	opacity: 1;
 }
 
 .btn-primary-menu:focus {
