@@ -936,7 +936,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 /*** HOME PAGE PROJECT COVER ***/
 .img-prjct {
   border-radius: 0px;
-  max-width: 50%;
+  width: 58%;
   height: auto;
   -webkit-transition: all .5s ease;
   -moz-transition: all .5s ease;
